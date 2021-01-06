@@ -1,0 +1,13 @@
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+    static-path-pattern: /**
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: yodc
+    url: jdbc:mysql://127.0.0.1:3306/videodemo?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT
+mybatis:
+  type-aliases-package: com.yuntu.demo.pojo
