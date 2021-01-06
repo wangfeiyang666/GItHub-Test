@@ -18,7 +18,7 @@ public class TeaController {
     TeacherService teacherService;
 
     @RequestMapping("/TeaIndex.html")
-    public String hello(){
+    public String hello() {
         return "TeaIndex";
     }
 

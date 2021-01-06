@@ -16,13 +16,15 @@ import java.util.List;
 public class PosController {
     @Autowired
     PosService posService;
-    @RequestMapping("/a")
-    public String index(){
+
+    @RequestMapping("a")
+    public String index() {
         return "index";
     }
+
     @RequestMapping("/page")
     @ResponseBody
-    public List<Position> page(String pageindex){
+    public List<Position> page(String pageindex) {
         List<Position> pageUtil = posService.getAll();
         return pageUtil;
     }
