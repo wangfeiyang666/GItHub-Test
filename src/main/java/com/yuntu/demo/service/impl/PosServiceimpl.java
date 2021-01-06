@@ -1,7 +1,8 @@
-package com.yuntu.demo.service;
+package com.yuntu.demo.service.impl;
 
 import com.yuntu.demo.dao.PosMapper;
 import com.yuntu.demo.pojo.Position;
+import com.yuntu.demo.service.PosService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
@@ -11,7 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 @Transactional
 @Service("posService")
-public class PosServiceimpl implements PosService{
+public class PosServiceimpl implements PosService {
     @Autowired
     PosMapper posMapper;
 
