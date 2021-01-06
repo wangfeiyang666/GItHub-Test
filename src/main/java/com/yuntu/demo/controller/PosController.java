@@ -16,7 +16,7 @@ import java.util.List;
 public class PosController {
     @Autowired
     PosService posService;
-    @RequestMapping("a")
+    @RequestMapping("/a")
     public String index(){
         return "index";
     }

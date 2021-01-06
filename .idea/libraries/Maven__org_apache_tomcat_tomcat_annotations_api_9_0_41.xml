@@ -1,7 +1,6 @@
 <component name="libraryTable">
   <library name="Maven: org.apache.tomcat:tomcat-annotations-api:9.0.41">
     <CLASSES>
-<<<<<<< HEAD
       <root url="jar://$PROJECT_DIR$/../../../maven/repository/org/apache/tomcat/tomcat-annotations-api/9.0.41/tomcat-annotations-api-9.0.41.jar!/" />
     </CLASSES>
     <JAVADOC>
@@ -9,15 +8,6 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../../maven/repository/org/apache/tomcat/tomcat-annotations-api/9.0.41/tomcat-annotations-api-9.0.41-sources.jar!/" />
-=======
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-annotations-api/9.0.41/tomcat-annotations-api-9.0.41.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-annotations-api/9.0.41/tomcat-annotations-api-9.0.41-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-annotations-api/9.0.41/tomcat-annotations-api-9.0.41-sources.jar!/" />
->>>>>>> origin/master
     </SOURCES>
   </library>
 </component>
