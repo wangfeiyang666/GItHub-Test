@@ -4,6 +4,7 @@ spring:
       prefix: /
       suffix: .jsp
     static-path-pattern: /**
+<<<<<<< HEAD
 
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -15,3 +16,17 @@ spring:
     resources:
       static-locations: classpath:static/
 
+=======
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/school?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT
+    username: root
+    password: 123456
+
+pagehelper:
+  helperDialect: mysql
+  reasonable: true  #开启优化，如果开启优化，在分页页码结果没有数据的时候,会显示有数据的页码数据
+  supportMethodsArguments: true #是否支持接口参数来传递分页参数，默认false
+  pageSizeZero: false #pageSize=0 返回所有
+  params: count=countSql
+>>>>>>> origin/master
